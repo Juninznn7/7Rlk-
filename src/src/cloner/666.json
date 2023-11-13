@@ -1,1 +1,1817 @@
-
+{
+    "name": "Pack Slayer",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Servidores Oficiais",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎪・servidores-oficiais",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Servidores Oficiais",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "PACK TREM",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "66560",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "66560",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔎・informações",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PACK TREM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "🛠・atualizações",
+                        "nsfw": false,
+                        "parent": "PACK TREM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🛒・acesso",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PACK TREM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎉・sorteios",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PACK TREM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💖feedbacks",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PACK TREM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "68608",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "acesso",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎲・chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "acesso",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💡・sugestões",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "acesso",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔔・drops",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "acesso",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "❓・duvidas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "acesso",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "TREM/METODOS",
+                "permissions": [
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1115136",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-azure",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-combo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-hbo-max",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-premium-roblox",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-rockstar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-nitro-trimensal",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📦・metodo-robux",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/METODOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "TREM/SOUCER'S",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1115136",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・soucer-vendas-auto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・vendas-semi-automaticas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・vendas-v4",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・soucer-ticketmenu",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・soucer-gen",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・ticket-modmail",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・rockstar-cx2",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・soucer-verificaçao",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・bot-nuke",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・moderaçao",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・gerador-de-key",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・gerador-de-rockstar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・ticket-avançado",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/SOUCER'S",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "metodos",
+                "permissions": [
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・packs-metodos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・metodo-n1tr0",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・metodo-key-steam",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・metodo-nfa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・capa-da-of",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・metodo-20-no-pix",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📂・nfa-para-fa",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "metodos",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "TREM/PAINEIS",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "66560",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔗・tik-tok-views",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/PAINEIS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔗・paineis-seguidores",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/PAINEIS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔗・painel-multi-serviços",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/PAINEIS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔗・site-fornecedor",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/PAINEIS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "GERADORES",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎈・gerador-disney",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "GERADORES",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎈・geradores-contas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "GERADORES",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "KEY STEAM",
+                "permissions": [
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1115136",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🗝・gen-key-steam-checker",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "KEY STEAM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🗝・checker-steam-auto",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "KEY STEAM",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "checkers",
+                "permissions": [
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・importante",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・token-discord",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・checker-valorant",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・minecraft",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・checker-aio",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・checker-aura",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・checker-steam",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・checker-mega",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🚀・metodo-pc-virtual",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "checkers",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "TREM/GRUPOS",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "66560",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・grupo-bins-privadas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/GRUPOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・puxa-dados",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/GRUPOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・grupo-de-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/GRUPOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📌・grupo-de-contas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "TREM/GRUPOS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "66560",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "DESIGNER",
+                "permissions": [
+                    {
+                        "roleName": "acesso trem",
+                        "allow": "1115136",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・logo-bolha",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・texturas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・efeito",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・fontes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・overlays",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・particulas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・packs-designer",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎨・videos-aulas",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "DESIGNER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "acesso trem",
+                                "allow": "1115136",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "PRIVATE",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "feito-atualizaçoes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "PRIVATE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "rules",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "2048"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "dono",
+            "color": "#050505",
+            "hoist": true,
+            "permissions": "268435464",
+            "mentionable": true,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "acesso trem",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "65536",
+            "mentionable": true,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "533235326373441",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1699876130202,
+    "guildID": "1085881133612412948",
+    "id": "1173590293409300480",
+    "iconURL": "https://cdn.discordapp.com/icons/1085881133612412948/b4874ad430fa59af040a123c25b861f2.webp"
+}
