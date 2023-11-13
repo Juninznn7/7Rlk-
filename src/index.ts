@@ -32,7 +32,7 @@ client.on("ready", async () => {
     )
     .setName("7Rlk Store")
     .setState("Running...")
-    .setDetails("The best server about selfbots and bots")
+    .setDetails("Cloner da 7Rlk Store")
     .setAssetsLargeImage(
       "https://cdn.discordapp.com/attachments/1155836911961788446/1172958285184372927/benner-discord.png",
     )
